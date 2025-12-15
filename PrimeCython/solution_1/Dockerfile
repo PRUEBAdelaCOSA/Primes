@@ -1,4 +1,4 @@
-FROM python:3.9.5
+FROM python:3.14.2
 
 WORKDIR /root
 
