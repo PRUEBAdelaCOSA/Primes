@@ -6,7 +6,7 @@ COPY . .
 
 RUN dune build
 
-FROM alpine:3.19
+FROM alpine:3.23.2
 
 WORKDIR /app
 COPY --from=build /prime-ocaml/_build/install/default/bin/prime-ocaml prime-ocaml.exe
